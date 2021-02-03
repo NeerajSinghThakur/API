@@ -1,0 +1,63 @@
+2021-02-03 13:39:51,176 - utilities.TestBase -INFO - Configuring extent report and launching browsser.
+2021-02-03 13:39:51,253 - utilities.TestBase -INFO - ***** Test case execution of Class com.testPages.PetstoreTeststarted******
+2021-02-03 13:39:51,264 - utilities.TestBase -INFO - validateAddPetTest test started
+2021-02-03 13:39:53,184 - utilities.TestBase -INFO - Message: Url is --https://petstore.swagger.io/v2/pet
+2021-02-03 13:39:53,236 - utilities.TestBase -INFO - Message: Pet details received from server is : {
+    "id": 9222968140497037138,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+2021-02-03 13:39:53,239 - utilities.TestBase -INFO - Message: Status code is  :200
+2021-02-03 13:39:53,239 - utilities.TestBase -INFO - Message: Successfully added new pet in store
+2021-02-03 13:39:53,245 - utilities.TestBase -INFO - validateUpdatePetTest test started
+2021-02-03 13:39:53,994 - utilities.TestBase -INFO - Message: Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}
+2021-02-03 13:39:54,280 - utilities.TestBase -INFO - Message: Status code is  :200
+2021-02-03 13:39:54,281 - utilities.TestBase -INFO - Message: Pet updated successfully
+2021-02-03 13:39:54,284 - utilities.TestBase -INFO - validateGetPetTest test started
+2021-02-03 13:39:55,001 - utilities.TestBase -INFO - Message: Pet details received from server is : {
+    "id": 20,
+    "category": {
+        "id": 0,
+        "name": "Neeraj"
+    },
+    "name": "CTS",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "velit commodo in"
+}
+2021-02-03 13:39:55,002 - utilities.TestBase -INFO - Message: Status code is  :200
+2021-02-03 13:39:55,002 - utilities.TestBase -INFO - Message: Successfully received pet data from Pet store.
+2021-02-03 13:39:55,004 - utilities.TestBase -INFO - validateDeletePetTest test started
+2021-02-03 13:39:55,716 - utilities.TestBase -INFO - Message: Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}
+2021-02-03 13:39:55,724 - utilities.TestBase -INFO - Message: Status code is  :200
+2021-02-03 13:39:55,724 - utilities.TestBase -INFO - Message: Pet deleted successfully..
+2021-02-03 13:39:55,726 - utilities.TestBase -INFO - ***************All test cases of Class com.testPages.PetstoreTest executed******
+2021-02-03 13:39:56,976 - utilities.TestBase -INFO - *********** All test classes run. Extent report generated and put in : /Users/nthakur/Eclips Java/PetStore-master//extentReports .Quitting browser**********

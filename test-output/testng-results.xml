@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Url is --https://petstore.swagger.io/v2/pet]]>
+    </line>
+    <line>
+      <![CDATA[Pet details received from server is : {
+    "id": 9222968140497037138,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Status code is  :200]]>
+    </line>
+    <line>
+      <![CDATA[Successfully added new pet in store]]>
+    </line>
+    <line>
+      <![CDATA[Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Status code is  :200]]>
+    </line>
+    <line>
+      <![CDATA[Pet updated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Pet details received from server is : {
+    "id": 20,
+    "category": {
+        "id": 0,
+        "name": "Neeraj"
+    },
+    "name": "CTS",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "velit commodo in"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Status code is  :200]]>
+    </line>
+    <line>
+      <![CDATA[Successfully received pet data from Pet store.]]>
+    </line>
+    <line>
+      <![CDATA[Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Status code is  :200]]>
+    </line>
+    <line>
+      <![CDATA[Pet deleted successfully..]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4486" started-at="2021-02-03T13:39:51 CET" finished-at="2021-02-03T13:39:55 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4486" started-at="2021-02-03T13:39:51 CET" finished-at="2021-02-03T13:39:55 CET">
+      <class name="com.testPages.PetstoreTest">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="cleanUp" is-config="true" duration-ms="72" started-at="2021-02-03T13:39:51 CET" finished-at="2021-02-03T13:39:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="thisClassTestStarted()[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="thisClassTestStarted" is-config="true" duration-ms="0" started-at="2021-02-03T13:39:51 CET" finished-at="2021-02-03T13:39:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thisClassTestStarted -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="driverAndExtentReportSetup" is-config="true" duration-ms="3" started-at="2021-02-03T13:39:51 CET" finished-at="2021-02-03T13:39:51 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.PetstoreTest.validateAddPetTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="validateAddPetTest()[pri:1, instance:com.testPages.PetstoreTest@459e9125]" name="validateAddPetTest" duration-ms="1974" started-at="2021-02-03T13:39:51 CET" finished-at="2021-02-03T13:39:53 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Url is --https://petstore.swagger.io/v2/pet]]>
+            </line>
+            <line>
+              <![CDATA[Pet details received from server is : {
+    "id": 9222968140497037138,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Status code is  :200]]>
+            </line>
+            <line>
+              <![CDATA[Successfully added new pet in store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAddPetTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-03T13:39:53 CET" finished-at="2021-02-03T13:39:53 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAddPetTest status=SUCCESS method=PetstoreTest.validateAddPetTest()[pri:1, instance:com.testPages.PetstoreTest@459e9125] output=Url is --https://petstore.swagger.io/v2/pet]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="driverAndExtentReportSetup" is-config="true" duration-ms="0" started-at="2021-02-03T13:39:53 CET" finished-at="2021-02-03T13:39:53 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.PetstoreTest.validateUpdatePetTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="validateUpdatePetTest()[pri:2, instance:com.testPages.PetstoreTest@459e9125]" name="validateUpdatePetTest" duration-ms="1035" started-at="2021-02-03T13:39:53 CET" finished-at="2021-02-03T13:39:54 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Status code is  :200]]>
+            </line>
+            <line>
+              <![CDATA[Pet updated successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUpdatePetTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-03T13:39:54 CET" finished-at="2021-02-03T13:39:54 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUpdatePetTest status=SUCCESS method=PetstoreTest.validateUpdatePetTest()[pri:2, instance:com.testPages.PetstoreTest@459e9125] output=Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="driverAndExtentReportSetup" is-config="true" duration-ms="0" started-at="2021-02-03T13:39:54 CET" finished-at="2021-02-03T13:39:54 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.PetstoreTest.validateGetPetTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="validateGetPetTest()[pri:3, instance:com.testPages.PetstoreTest@459e9125]" name="validateGetPetTest" duration-ms="717" started-at="2021-02-03T13:39:54 CET" finished-at="2021-02-03T13:39:55 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Pet details received from server is : {
+    "id": 20,
+    "category": {
+        "id": 0,
+        "name": "Neeraj"
+    },
+    "name": "CTS",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "velit commodo in"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Status code is  :200]]>
+            </line>
+            <line>
+              <![CDATA[Successfully received pet data from Pet store.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateGetPetTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-03T13:39:55 CET" finished-at="2021-02-03T13:39:55 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateGetPetTest status=SUCCESS method=PetstoreTest.validateGetPetTest()[pri:3, instance:com.testPages.PetstoreTest@459e9125] output=Pet details received from server is : {
+    "id": 20,
+    "category": {
+        "id": 0,
+        "name": "Neeraj"
+    },
+    "name": "CTS",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "velit commodo in"
+}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="driverAndExtentReportSetup" is-config="true" duration-ms="1" started-at="2021-02-03T13:39:55 CET" finished-at="2021-02-03T13:39:55 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.PetstoreTest.validateDeletePetTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="validateDeletePetTest()[pri:4, instance:com.testPages.PetstoreTest@459e9125]" name="validateDeletePetTest" duration-ms="719" started-at="2021-02-03T13:39:55 CET" finished-at="2021-02-03T13:39:55 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Status code is  :200]]>
+            </line>
+            <line>
+              <![CDATA[Pet deleted successfully..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDeletePetTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-03T13:39:55 CET" finished-at="2021-02-03T13:39:55 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDeletePetTest status=SUCCESS method=PetstoreTest.validateDeletePetTest()[pri:4, instance:com.testPages.PetstoreTest@459e9125] output=Pet details received from server is : {
+    "code": 200,
+    "type": "unknown",
+    "message": "20"
+}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="endTest" is-config="true" duration-ms="1" started-at="2021-02-03T13:39:55 CET" finished-at="2021-02-03T13:39:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPages.PetstoreTest@459e9125]" name="tearDown" is-config="true" duration-ms="1240" started-at="2021-02-03T13:39:55 CET" finished-at="2021-02-03T13:39:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testPages.PetstoreTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
